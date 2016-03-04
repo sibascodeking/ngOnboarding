@@ -167,6 +167,7 @@
                     bottom = bottom - curStep['yOffset'];
                   }
                 }
+                $("body").animate({scrollTop:top-150},"slow");
                 scope.top = top;
                 scope.bottom = bottom;
               }
